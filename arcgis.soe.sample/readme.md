@@ -37,7 +37,7 @@ Po zdeployowaniu SOE można je włączyć do wybranej usługi na ArcGIS Serwerze
 ## Problemy
 ArcGIS Server 10.8.1 w runtime dla SOE wykorzystuje JDK 11. Jeżeli SOE zostało zbudowane na JDK 8 i wykorzystuje API, które zostało usunięte z JDK 11 to SOE przestaje działać. 
 
-W przypadku `SampleSOE` upadek następuje podczas wykonywania 33 linii, poniewarz Enum 
+W przypadku `SampleSOE` upadek następuje podczas wykonywania 33 linii, ponieważ Enum 
 `javax.xml.ws.Service.Mode` jest dostępny w API JDK 8, a w API JDK 11 nie jest dostępny. 
 
 ## Log
